@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="xxx项目" parallel="false"> <!-- 相当于项目 -->
+
+  <test name="用户模块">			<!-- 相当于模块 -->
+    <classes><!-- 执行顺序：从上往下 -->
+      <class name="com.lemon.cases.RegisterCase"/>
+      <class name="com.lemon.cases.LoginCase"/>
+      <class name="com.lemon.cases.RechargeCase"/>
+    </classes> 
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
